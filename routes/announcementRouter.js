@@ -12,6 +12,7 @@ import {
 const announcementRouter = express.Router();
 
 announcementRouter.post("/create-announcement", createAnnouncement);
+
 announcementRouter.get("/view-announcement", getAllAnnouncements);
 // announcementRouter.get("/view-announcement/", getAnnouncementById);
 announcementRouter.put("/edit-announcement/:id", editAnnouncement);
